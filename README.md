@@ -132,28 +132,28 @@ For the DataUtilities method, we created a total of 20 test cases, 18 which pass
     1. createNumberArrayWrongType(): Throws an exception for null values
     2. NumberArrayTestBoundary(): Used to test edge values, i.e -1e10 ti 1e10.
 2. createNumberArray2D(double[ ] [ ] data): Number[ ][ ]
-    3. createNumberArray2DTest(): Used to validate 2D array creation
-    4. createNumberArray2DTestSmall(): Used to validate 2D 1x1 array 
-    5. createNumberArray2DTestNull(): Used to validate null/empty 2D array
-    6. createNumberArray2DTestBoundary(): Used to test edge values, i.e -1e10 to 1e10.
+    1. createNumberArray2DTest(): Used to validate 2D array creation
+    2. createNumberArray2DTestSmall(): Used to validate 2D 1x1 array 
+    3. createNumberArray2DTestNull(): Used to validate null/empty 2D array
+    4. createNumberArray2DTestBoundary(): Used to test edge values, i.e -1e10 to 1e10.
 3. calculateColumnTotal(Values2D, int):double
-    7. calculateColumnTotalnegBoundary(): Used to test negative boundaries
-    8. calculateColumnTotalposBoundary(): Used to test positive boundaries
-    9. calculateColumnTotalInvalidIndex(): checks for invalid column index, fail
-    10. calculateColumnTotalBlank(): Checks for empty columns
+    1. calculateColumnTotalnegBoundary(): Used to test negative boundaries
+    2. calculateColumnTotalposBoundary(): Used to test positive boundaries
+    3. calculateColumnTotalInvalidIndex(): checks for invalid column index, fail
+    4. calculateColumnTotalBlank(): Checks for empty columns
 4. calculateRowTotal(Values2D, int):double
-    11. calculateRowTotalBlank() : Checks for empty rows
-    12. calculateRowTotalInvalidIndex(): Validates invadid row indices, fail
-    13. calculateRowTotalposBoundary(): Used to test positive boundaries	
-    14. calculateRowTotalnegBoundary(): Used to test negative boundaries
+    1. calculateRowTotalBlank() : Checks for empty rows
+    2. calculateRowTotalInvalidIndex(): Validates invadid row indices, fail
+    2. calculateRowTotalposBoundary(): Used to test positive boundaries	
+    3. calculateRowTotalnegBoundary(): Used to test negative boundaries
 5. Clone
-    15. cloneTestEmpty(); Validate an empty clone
-    16. cloneTest(); Validate a cloning function
-    17. cloneTestNull: Test null inputs
+    1. cloneTestEmpty(); Validate an empty clone
+    2. cloneTest(); Validate a cloning function
+    3. cloneTestNull: Test null inputs
 6. Equal
-    18. EqualCheckTest
-    19. EqualCheckPopulatedTest
-    20. EqualCheckNotPopulatedTest
+    1. EqualCheckTest
+    2. EqualCheckPopulatedTest
+    3. EqualCheckNotPopulatedTest
 
 **Discussion TeamWork and Lessons Learned**
 
