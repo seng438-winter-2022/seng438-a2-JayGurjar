@@ -4,7 +4,7 @@
 
 Yay, no errors, warnings, or alerts!
 
-Conversion time: 0.977 seconds.
+Conversion time: 0.529 seconds.
 
 
 Using this Markdown file:
@@ -17,7 +17,7 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β33
-* Wed Feb 09 2022 18:48:23 GMT-0800 (PST)
+* Wed Feb 09 2022 18:52:09 GMT-0800 (PST)
 * Source doc: SENG 438 Assignment 1 Report
 * Tables are currently converted to HTML tables.
 ----->
@@ -101,24 +101,24 @@ The testing approach chosen by our group was the black-box test case design tech
     3. containsshouldShouldBeZeroPointFive(): should return true as 0.5 is in between 0 and 1. \
 
 2. constrain():
-    4. constrainShouldBeZeroPointFive(): should return 0.5 as 0.5 is the mid value between 0 and 1
-    5. constrainShouldBeOne() : Should return 1 as one 1 is closest to Postive infinity.
-    6. constrainShouldBeNan(): should return Nan as Nan is passed as an argument. \
+    1. constrainShouldBeZeroPointFive(): should return 0.5 as 0.5 is the mid value between 0 and 1
+    2. constrainShouldBeOne() : Should return 1 as one 1 is closest to Postive infinity.
+    3. constrainShouldBeNan(): should return Nan as Nan is passed as an argument. \
 
 3. intersects():
-    7. intersectShouldNotBeInBetweenNegativeTwoAndNegativeOne(): should return false as exampleRange does not contain the given arguments.
-    8.  intersectsShouldNotBeInBetweenOneAndOnePointOne (): should return false as exampleRange does not contain the given arguments.
-    9. intersectsShouldBeInBetweenZeroPointFiveAndZeroPointSix(): should return true as example range contains the given points. \
+    1. intersectShouldNotBeInBetweenNegativeTwoAndNegativeOne(): should return false as exampleRange does not contain the given arguments.
+    2.  intersectsShouldNotBeInBetweenOneAndOnePointOne (): should return false as exampleRange does not contain the given arguments.
+    3. intersectsShouldBeInBetweenZeroPointFiveAndZeroPointSix(): should return true as example range contains the given points. \
 
 4. combine():
-    10. combineShouldBeNull(): should return null as the null to null range is null
-    11. combineShouldBeEqualTor1(): should return null as the null to null range is null
-    12. combineTestCase(): should be true since the range is still NaN \
+    1. combineShouldBeNull(): should return null as the null to null range is null
+    2. combineShouldBeEqualTor1(): should return null as the null to null range is null
+    3. combineTestCase(): should be true since the range is still NaN \
 
 5. isNanRange():
-    13. isNaNRangeShouldBeTrue(): should return true as Double.NaN is in the NaN range
-    14. isNaNRangeShouldBeFalse(): should return false as 1.0 and 2.0 range is not in the NaN range
-    15. isNaNRangeShouldBeInNaNRange(): should return false as 2.0 and Double.NaN range is not in the NaN range
+    1. isNaNRangeShouldBeTrue(): should return true as Double.NaN is in the NaN range
+    2. isNaNRangeShouldBeFalse(): should return false as 1.0 and 2.0 range is not in the NaN range
+    3. isNaNRangeShouldBeInNaNRange(): should return false as 2.0 and Double.NaN range is not in the NaN range
 
 We tried testing boundary conditions without knowing how the code was written to find a case where the code crashes. We passed in NaNs and infinities but the code was really well written and Range did not produce any failed unit tests. 
 
@@ -166,4 +166,3 @@ We had lots of trouble following the instructions for setting up the project sin
 **Comments/Feedback**
 
 In the lab, we got the chance to learn more about test cases and how it's important to write good names for test cases especially. Next time the lab instructions should be more clear. Also, lab instructions should be more clear and not confusing. 
-
